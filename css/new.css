@@ -1,0 +1,56 @@
+/* body{
+        overflow: -moz-scrollbars-vertical;
+        overflow-x: hidden;
+    
+        
+}
+body
+{
+  -ms-content-zooming:none;  
+  touch-action: none;
+  content-zooming: none;
+  overflow-y: hidden; // hide vertical
+overflow-x: hidden; 
+overflow-y: none; // hide vertical
+overflow-x: none; 
+} */
+.background  {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    opacity: 20%;
+    z-index: -1;
+    
+}
+
+
+.general{
+   display: flex;            
+}
+
+.head{
+    flex: 1;
+}
+
+.head{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+td span{
+    
+    transform: rotate(180deg);  
+    writing-mode: vertical-lr;
+}
